@@ -7,9 +7,9 @@ name: MSBuild
 
 on:
   push:
-    branches: [ "lineage-20." ]
+    branches: [ "android-12.1" ]
   pull_request:
-    branches: [ "lineage-20" ]
+    branches: [ "android-12.1" ]
 
 env:
   # Path to the solution file relative to the root of the project.
