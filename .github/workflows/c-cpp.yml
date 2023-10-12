@@ -16,7 +16,7 @@ jobs:
     - name: configure
       run: |
     - name: make
-      run: |
+      run: make
     - name: make check
       run: |
     - name: make distcheck
